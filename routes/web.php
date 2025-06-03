@@ -14,4 +14,4 @@ Route::get('/a20', function () {
 
 Route::get('/a20/saluda', [A20Controller::class, 'saluda']);
 
-Route::get('/a20/verlista', [mostrarArray::class, 'mostrarArray']);
+Route::get('/a20/mostrarusuarios', [mostrarArray::class, 'mostrarArray']);
