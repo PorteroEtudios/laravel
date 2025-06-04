@@ -5,11 +5,11 @@ namespace App\Http\Controllers;
 use Illuminate\Cache\RedisTagSet;
 use Illuminate\Http\Request;
 
-class A20Controller extends Controller
+class porteController extends Controller
 {
     //
     public function saluda(){
-        return ("hola a20");
+        return ("hola porte");
     }
 
     public function index(){
