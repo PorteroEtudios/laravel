@@ -8,8 +8,8 @@ use Illuminate\Http\Request;
 class A20Controller extends Controller
 {
     //
-    public function saluda(){
-        return ("hola a20");
+    public function saludo(){
+        return view('saludo');
     }
 
     public function index(){
