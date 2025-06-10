@@ -8,10 +8,10 @@ use Illuminate\Http\Request;
 class porteController extends Controller
 {
     //
-    public function saluda(){
-        return ("hola porte");
+    public function saludo(){
+        return view('saludo');
     }
-
+    
     public function index(){
         return "hOLA";
     }    
