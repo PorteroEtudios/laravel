@@ -13,6 +13,6 @@ class porteController extends Controller
     }
 
     public function index(){
-        return redirect()->route('uu');
+        return "hOLA";
     }    
 }
