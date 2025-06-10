@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\porteController;
 use App\Http\Controllers\mostrarArray;
+use App\Http\Controllers\PaisController;
 use App\Http\Controllers\SaludoController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,5 +19,6 @@ Route::get('/a20/saludo/vista', function(){
 });
 Route::get('/a20/saludo/controller/{nombre}', [SaludoController::class, 'index']);    
 
-
 Route::get('/porte/mostrarusuarios', [mostrarArray::class, 'mostrarArray']);
+
+Route::resource('paises', PaisController::class);
