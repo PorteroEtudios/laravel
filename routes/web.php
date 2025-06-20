@@ -19,7 +19,7 @@ Route::get('/a20/saludo', function(){
 Route::get('/a20/saludo/vista', function(){
     return view('saludo');
 });
-Route::get('/a20/saludo/controller/{nombre}', [SaludoController::class, 'index']);    
+Route::get('/a20/saludo/controller/{nombre}', [SaludoController::class, 'index']);
 
 Route::get('/porte/mostrarusuarios', [mostrarArray::class, 'mostrarArray']);
 
