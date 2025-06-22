@@ -1,1 +1,1 @@
-<p>hola {{$nombre}}</p>
+<p>hola {{$nombre}}, en q te puedo ayudar hoy?</p>
