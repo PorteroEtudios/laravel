@@ -7,7 +7,7 @@ use App\Http\Controllers\SaludoController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('Hola');
+    return view('welcome');
 });
 
 Route::get('/porte', [porteController::class, 'index']);
